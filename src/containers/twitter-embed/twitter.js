@@ -7,7 +7,7 @@ import StyleContext from "../../contexts/StyleContext";
 
 const renderLoader = () => <Loading />;
 const cantDisplayError =
-  "<div className='centerContent'><h2>Can't load? Check privacy protection settings</h2></div>";
+  // "<div className='centerContent'><h2>Can't load? Check privacy protection settings</h2></div>";
 
 function timeOut() {
   setTimeout(function () {
@@ -31,7 +31,7 @@ export default function Twitter() {
     return (
       <Suspense fallback={renderLoader()}>
         <div className="tw-main-div" id="twitter">
-          <div className="centerContent">
+          {/* <div className="centerContent">
             <TwitterTimelineEmbed
               sourceType="profile"
               screenName={twitterDetails.userName}
@@ -44,7 +44,7 @@ export default function Twitter() {
               noFooter={true}
               onload={timeOut()}
             />
-          </div>
+          </div> */}
         </div>
       </Suspense>
     );
