@@ -51,11 +51,18 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CREATIVE FRONT-END DEVELOPER WHO LOVES BUILDING CLEAN UIS AND EXPLORING MODERN WEB TECHNOLOGIES",
+  subTitle:
+    "CREATIVE FRONT-END DEVELOPER WHO LOVES BUILDING CLEAN UIS AND EXPLORING MODERN WEB TECHNOLOGIES",
   skills: [
-    emoji("⚡ Build responsive and modern Front-end User Interfaces using React, Tailwind CSS, and Bootstrap"),
-    emoji("⚡ Create smooth Single Page Applications (SPA) with clean and efficient code"),
-    emoji("⚡ Integrate third-party tools and services like Firebase for dynamic web features")
+    emoji(
+      "⚡ Build responsive and modern Front-end User Interfaces using React, Tailwind CSS, and Bootstrap"
+    ),
+    emoji(
+      "⚡ Create smooth Single Page Applications (SPA) with clean and efficient code"
+    ),
+    emoji(
+      "⚡ Integrate third-party tools and services like Firebase for dynamic web features"
+    )
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -105,7 +112,7 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "firebase",
       fontAwesomeClassname: "fas fa-fire"
-    },
+    }
     // {
     //   skillName: "python",
     //   fontAwesomeClassname: "fab fa-python"
@@ -290,7 +297,7 @@ const achievementSection = {
       image: require("./assets/images/pwaLogo.webp"),
       imageAlt: "PWA Logo",
       footerLink: [
-        { name: "Certification", url: "" },
+        {name: "Certification", url: ""},
         {
           name: "Final Project",
           url: "https://pakistan-olx-1.firebaseapp.com/"
@@ -371,7 +378,7 @@ const contactInfo = {
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
   number: "+923151252801",
-  email_address: "basilkhan1250@gmail.com",
+  email_address: "basilkhan1250@gmail.com"
 };
 
 // Twitter Section
